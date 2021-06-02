@@ -1,0 +1,170 @@
+/*
+Barra de Rolagem
+.rolagem{
+overflow:auto;
+}
+*/
+
+* {
+    box-sizing: border-box;
+}
+
+
+
+footer{
+    text-align: center;
+    background: #e7dfdd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+#barranav{
+    height: 1200px;
+    width: 17%;
+    background: #0e0b16;
+    overflow-x: hidden;
+    padding-top: 150px;
+    float: left;
+    
+}
+
+#barranav a{
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    padding: 15px;
+}
+
+#barranav a:hover{
+    color: #f1f1f1;
+}
+
+
+ /* HEADER */
+
+ .header-index{
+  height: 120px;
+  width: 100%;
+  background: #e7dfdd;
+  color: black;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-img{
+  position: relative;
+  top: 15px;
+  margin-left: 100px;
+  width: 200px;
+  height: 100px;
+}
+
+.header-index .search-container {
+float: right;
+position: relative;
+  right: 200px;
+  top: 43px;
+}
+
+.header-index input[type=search] {
+  
+padding: 6px;
+margin-top: 8px;
+font-size: 17px;
+border: none;
+}
+
+.header-index .search-container button {
+float: right;
+padding: 6px 10px;
+margin-top: 8px;
+margin-right: 16px;
+background: #ddd;
+font-size: 17px;
+border: none;
+cursor: pointer;
+}
+
+header .search-container button:hover {
+background: #ccc;
+}
+
+
+#section{
+  float: left;
+  width: 57%;
+  height: 100%;
+}
+
+
+#footer{
+  clear: both;
+}
+
+.img{
+  width: 120px;
+  height: 170px;
+}
+
+.imagens{
+  margin: auto;
+  align-items: center;
+}
+
+.nomeLivro{
+  padding: 10px;
+  line-height: 1.5em;
+  color: #7a0a0a;
+  font-family: Avenir,lucida grande,tahoma,verdana,arial,sans-serif;
+  font-size: 14px;
+  max-width: 90%;
+}
+
+.espaço{
+  width: 200px;
+}
+
+.home-section{
+  text-align: center;
+  padding: 20px;
+}
+
+.top-livros{
+  padding-left: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  text-transform: uppercase;
+  
+}
+
+.hr{
+  width: 95%;
+  color: black;
+}
+
+.separa-topicos{
+  padding-top: 30px;
+}
+
+
+#aside{
+  float: left;
+  width: 26%;
+  height: 100%;
+}
+
+#h4-aside{
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.centraliza{
+  margin: auto;
+  width: 200px;
+}
+
+.card-group:hover{
+    cursor: pointer;
+}

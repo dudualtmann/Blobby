@@ -1,0 +1,221 @@
+body{
+    background-color: #f0f0f0;
+    font-family: sans-serif;
+}
+
+/* Nav Lateral */
+
+#barranav{
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #0e0b16;
+    overflow-x: hidden;
+    padding-top: 150px;
+}
+
+#barranav a{
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+#barranav a:hover{
+    color: #f1f1f1;
+}
+
+/* Header */
+
+.header-index{
+    height: 120px;
+    width: 100%;
+    background: #e7dfdd;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-img{
+    position: relative;
+    top: 15px;
+    margin-left: 300px;
+    width: 200px;
+    height: 100px;
+}
+
+ .header-index .search-container {
+  float: right;
+  position: relative;
+    right: 200px;
+    top: 43px;
+}
+
+.header-index input[type=search] {
+    
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.header-index .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+ header .search-container button:hover {
+  background: #ccc;
+}
+
+/* Formulário */
+
+.form{
+    width: 1000px;
+    margin: auto;
+    margin-left: 350px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.card{
+    box-shadow: 1px 1px 5px #ccc;
+    background-color: white;
+    padding: 30px;
+    border-radius: 5px;
+}
+
+.card-top{
+    text-align: left;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    
+    border-color: #4f74c8;
+    padding: 2%;
+}
+
+.card-top p{
+    color: gray;
+}
+
+.card-top p strong{
+    color: #4f74c8;
+}
+
+.title{
+    color: #4f74c8;
+}
+
+.card-group label{
+width: 100%;
+color: rgb(75, 75, 75);
+display: block;
+}
+
+.card-group input{
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+    outline: 0;
+    width: 50%;
+    height: 30px;
+    padding: 5px;
+
+}
+
+.card-group textarea{
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: rgb(230, 228, 228);
+    outline: 0;
+    width: 100%;
+    padding: 5px;
+
+}
+
+.card-group button{
+    margin-top: 15px;
+    background-color: rgb(23, 135, 204);
+    width: 10%;
+    height: 30px;
+    color: white;
+    border-width: 0px;
+    outline: 0;
+    
+
+}
+
+.card-group button:hover{
+    background-color: rgb(14, 89, 136);
+
+}
+
+.review{
+    border-style: solid;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: lightgray;
+    margin-top: 50px;
+}
+
+.username{
+    width: 100%;
+    margin: auto;
+    background-color: #4f74c8;
+}
+
+.username label{
+    margin-left: 10px;
+    margin-top: 5px;
+    color: white;
+    font-weight: bold;
+}
+
+.comment{
+    padding: 1%;
+}
+
+.h2-comment{
+    margin-left: 5%;
+    margin-top: 5%;
+    color: #4f74c8;
+}
+
+hr{
+    margin: auto;
+    width: 95%;
+    color: rgb(95, 95, 95);
+}
+
+.write-comment{
+    width: 100%;
+    margin-top: 5%;
+}
+
+.write-comment label{
+    margin-left: 1%;
+    color: #4f74c8;
+}
+
+
+
+/* Footer */
+
+footer{
+    text-align: center;
+    background: #e7dfdd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    clear: both;
+}

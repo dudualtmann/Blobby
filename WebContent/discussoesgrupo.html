@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<!-- Meu Css -->
+<link rel="stylesheet" type="text/css" href="css/styledisc.css">
+<script src="js/posts.js"></script>
+
+
+<title>Discussões do Grupo</title>
+</head>
+<body>
+  <input type="hidden" id="id_post" name="id_post" value="vazio">
+    <header class="header-index">
+            
+        <a href="index.html">
+        <img src="./images/blobby header logo.png" alt="" class ="header-img">
+        </a>
+
+        <div class="search-container">
+            <form action="SvSearch" method="POST">
+              <input type="search" placeholder="Search.." name="search">
+              <button type="submit"><i class="fa fa-search"></i></button>
+            </form>
+          </div>
+
+          
+        
+      
+    </header class="header-index">
+    
+    <main class="corpo">
+    <nav class="" id="barranav">
+            <a href="home.html">Home</a>
+            <a href="#">Perfil</a>
+            <a href="#">Grupos</a>
+            <a href="#">Lista de Amigos</a>
+            <a href="#">Minha Lista</a>
+            
+         </nav>
+         
+         <section class="secteste">
+           <form action="SvPost" method="POST" id="formposts" name="formposts">
+          
+<div class="my-3 p-3 bg-white rounded box-shadow">
+  <h6 style="float: right;"><a href="#" onclick="fazerPost()">Fazer um Post</a></h6>
+    <h6 class="border-bottom border-gray pb-2 mb-0">Discussões Recentes</h6>
+    
+
+    <div class="media text-muted pt-3">
+      <p class="media-body pb-3 mb-0 small lh-125 border-bottom border-gray posts">
+        <strong class="d-block text-gray-dark">Título Post</strong>
+        Autor: usuario123
+      </p>
+      <input type="hidden" value="colocar id aqui">
+    </div>
+    
+    <!--<small class="d-block text-right mt-3">
+      <a href="#">Ver Mais</a>
+    </small>
+  -->
+  </div>
+
+  </form>
+</section>
+
+</main>
+<footer>
+    <div>&copy; 2020 - Blobby - Todos os Direitos Reservados</div>
+ </footer>
+</body>
+</html>

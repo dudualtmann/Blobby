@@ -1,0 +1,108 @@
+body{/*
+    background-image: url("../images/bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;*/
+    font-family: sans-serif;
+    background-color: rgb(214, 206, 206);
+    
+}
+
+/* Nav Lateral */
+
+#barranav{
+    height: 100%;
+    width: 220px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background: #0e0b16;
+    overflow-x: hidden;
+    padding-top: 150px;
+}
+
+#barranav a{
+    padding: 6px 6px 6px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+#barranav a:hover{
+    color: #f1f1f1;
+}
+
+/* Header */
+
+.header-index{
+    height: 120px;
+    width: 100%;
+    background: #e7dfdd;
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.header-img{
+    position: relative;
+    top: 15px;
+    margin-left: 300px;
+    width: 200px;
+    height: 100px;
+}
+
+ .header-index .search-container {
+  float: right;
+  position: relative;
+    right: 200px;
+    top: 43px;
+}
+
+.header-index input[type=search] {
+    
+  padding: 6px;
+  margin-top: 8px;
+  font-size: 17px;
+  border: none;
+}
+
+.header-index .search-container button {
+  float: right;
+  padding: 6px 10px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+ header .search-container button:hover {
+  background: #ccc;
+}
+
+.secteste{
+    width: 800px;
+    margin: auto;
+    
+}
+
+.corpo{
+	height: 800px
+}
+
+
+
+/*------------------------------------------------*/
+
+/* Footer */
+
+footer{
+    text-align: center;
+    background: #e7dfdd;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+    clear: both;
+}
